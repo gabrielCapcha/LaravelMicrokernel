@@ -11,7 +11,7 @@ class ModulesController extends Controller
     {
         $request = $request->all();
         $gitBranch = $request['branch'];
-        $output = shell_exec('cd ..\\Modules && git clone -b ' . $gitBranch . ' https://github.com/gabrielzz740/microkernelModules.git .');
+        $output = shell_exec('cd ..\\Modules && git clone -b ' . $gitBranch . ' https://github.com/gabrielzz740/Modules.git .');
         return redirect('/home');
     }
 }
