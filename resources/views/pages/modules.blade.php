@@ -32,11 +32,11 @@
             </td>
         </tr>
         <tr>
-            <td>Módulo de reportes</td>
+            <td>Módulo de dashboard</td>
             <td>Este módulo está diseñado para poder mostrar el resúmen de tus reportes</td>
             <td>
                 <div>
-                    <button type="button" class="btn btn-success btn-sm">Instalar</button>
+                    <button type="button" onClick="installModule('dashboard');" class="btn btn-success btn-sm">Instalar</button>
                     <button type="button" class="btn btn-primary btn-sm">Ver</button>
                     <button type="button" class="btn btn-danger btn-sm">Eliminar</button>
                 </div>

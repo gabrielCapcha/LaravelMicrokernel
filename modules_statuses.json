@@ -1,4 +1,6 @@
 {
     "Products": true,
-    "PrintPdf": true
+    "PrintPdf": true,
+    "Reports": true,
+    "Dashboard": true
 }
